@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="root" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Splash">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@/images.jpeg" />
+         </image>
+      </ImageView>
+      <Text fontSmoothingType="LCD" layoutX="446.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CGPA" textAlignment="CENTER" wrappingWidth="106.3603515625">
+         <font>
+            <Font name="Angsana New Bold Italic" size="36.0" />
+         </font>
+         <fill>
+            <LinearGradient cycleMethod="REFLECT" endX="0.5285714285714286" endY="0.819047619047619" startX="0.24761904761904763" startY="0.3666666666666667">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#258f80" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Text fill="#eb093ae8" fontSmoothingType="LCD" layoutX="436.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CALCULATOR" textAlignment="CENTER">
+         <font>
+            <Font name="Batang" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

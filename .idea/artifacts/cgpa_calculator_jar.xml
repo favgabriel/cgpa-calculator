@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="cgpa calculator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/cgpa_calculator_jar</output-path>
+    <root id="archive" name="cgpa calculator.jar">
+      <element id="module-output" name="cgpa calculator" />
+      <element id="library" level="project" name="res" />
+    </root>
+  </artifact>
+</component>

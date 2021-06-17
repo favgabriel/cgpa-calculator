@@ -1,0 +1,21 @@
+*{
+    -fx-primary:#19345c;
+}
+.tab{
+    -fx-pref-width:250;
+    -fx-pref-height:50;
+    -fx-background-color:green;
+}
+.tab-header-background{
+     -fx-background-color:-fx-primary;
+ }
+ .context-menu{
+     -fx-background-color:derive(-fx-primary,-20%);
+ }
+ .table-view .column-header .label{
+     -fx-text-fill:black;
+     -fx-font-weight:bold;
+ }
+ .label{
+     -fx-text-fill:white;
+ }
